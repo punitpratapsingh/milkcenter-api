@@ -1,0 +1,24 @@
+{
+	"extends": "airbnb",
+	"env": {
+		"es6": true,
+		"node": true
+	},
+	"parser": "babel-eslint",
+	"rules": {
+		"indent": [
+			2,
+			"tab",
+			{
+				"SwitchCase": 1,
+				"VariableDeclarator": 1
+			}
+		],
+		"no-tabs": 0,
+		"global-require": 0,
+		"import/no-dynamic-require": 0,
+		"import/named": 0,
+		"prefer-promise-reject-errors": 0,
+		"no-underscore-dangle": 0
+	}
+}
